@@ -1,0 +1,59 @@
+[[pages]]
+name = "Prediction for Real Estate, Loan Approvals, and Stock Market Trends."
+icon = "🏠"
+path = "home.py"
+
+[[pages]]
+name = "Real Estate"
+icon = "📊"
+is_section=true
+
+[[pages]]
+name = "Data Exploration"
+icon = ":material/explore:"
+path = "house/data.py"
+
+[[pages]]
+name = "Outliers Detection"
+icon = ":material/filter_alt:"
+path = "house/outliers.py"
+
+[[pages]]
+name = "Correlation and Feature Selection"
+icon = ":material/manufacturing:"
+path = "house/correlation.py"
+
+[[pages]]
+name = "Model Training and Evaluation"
+icon = ":material/insights:"
+path = "house/multiple_linear.py"
+
+[[pages]]
+name = "Loan Approvals"
+icon = "💰"
+is_section=true
+
+[[pages]]
+name = "Data Preprocessing"
+icon = ":material/explore:"
+path = "loan/data_preprocessing.py"
+
+[[pages]]
+name = "Data Splitting and Normalization"
+icon = ":material/search:"
+path = "loan/normalization.py"
+
+[[pages]]
+name = "Model Training"
+icon = ":material/search:"
+path = "loan/model_training.py"
+
+[[pages]]
+name = "Model Evaluation and Analysis"
+icon = ":material/manufacturing:"
+path = "loan/evaluation.py"
+
+[[pages]]
+name = "Stock Market Trends"
+icon = "📈"
+is_section=true
