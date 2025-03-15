@@ -3,6 +3,7 @@ import pandas as pd
 import pathlib
 import io
 
+st.title('📊 Data Preprocessing')
 
 CURRENT_DIR = pathlib.Path(__file__).parent.resolve()
 
@@ -35,3 +36,5 @@ df_encoded.info(buf=buffer)
 with st.container(border=True):
     st.text(buffer.getvalue())
 
+st.subheader('📚 Original dataset with all features')
+st.dataframe(df)

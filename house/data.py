@@ -4,6 +4,8 @@ import pathlib
 import matplotlib.pyplot as plt
 import io
 
+st.title('📊 Data Exploration')
+
 CURRENT_DIR = pathlib.Path(__file__).parent.resolve()
 
 # Load data

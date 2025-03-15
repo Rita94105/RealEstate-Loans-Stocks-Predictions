@@ -1,5 +1,5 @@
 [[pages]]
-name = "Prediction for Real Estate, Loan Approvals, and Stock Market Trends."
+name = "Real Estate, Loan Approvals, and Stock Market Trends."
 icon = "🏠"
 path = "home.py"
 
@@ -45,15 +45,50 @@ path = "loan/normalization.py"
 
 [[pages]]
 name = "Model Training"
-icon = ":material/search:"
+icon = ":material/manufacturing:"
 path = "loan/model_training.py"
 
 [[pages]]
 name = "Model Evaluation and Analysis"
-icon = ":material/manufacturing:"
+icon = ":material/insights:"
 path = "loan/evaluation.py"
 
 [[pages]]
 name = "Stock Market Trends"
 icon = "📈"
 is_section=true
+
+[[pages]]
+name = "Data Preprocessing"
+icon = ":material/explore:"
+path = "stock/preprocessing.py"
+
+[[pages]]
+name = "1D Convolutional Neural Network (CNN)"
+icon = ":material/manufacturing:"
+path = "stock/cnn.py"
+
+[[pages]]
+name = "Recurrent Neural Networks (RNN)"
+icon = ":material/manufacturing:"
+path = "stock/rnn.py"
+
+[[pages]]
+name = "Long Short-Term Memory (LSTM)"
+icon = ":material/manufacturing:"
+path = "stock/lstm.py"
+
+[[pages]]
+name = "Gated Recurrent Unit (GRU)"
+icon = ":material/manufacturing:"
+path = "stock/gru.py"
+
+[[pages]]
+name = "Transformers"
+icon = ":material/manufacturing:"
+path = "stock/transformer.py"
+
+[[pages]]
+name = "Comparison of Models"
+icon = ":material/insights:"
+path = "stock/conclusion.py"

@@ -8,6 +8,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Lasso
 from sklearn.metrics import mean_squared_error, r2_score
 
+st.title('💡 Model Building and Evaluation')
+
 CURRENT_DIR = pathlib.Path(__file__).parent.resolve()
 # Load cleaned data
 df_cleaned = pd.read_csv(CURRENT_DIR / 'Dataset1_Cleaned.csv')

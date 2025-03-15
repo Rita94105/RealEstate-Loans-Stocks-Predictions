@@ -8,6 +8,8 @@ from sklearn.mixture import GaussianMixture
 import seaborn as sns
 import math
 
+st.title('🔍 Outlier Detection')
+
 CURRENT_DIR = pathlib.Path(__file__).parent.resolve()
 
 # Load data

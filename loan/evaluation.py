@@ -16,6 +16,8 @@ import numpy as np
 import pandas as pd
 import io
 
+st.title('💡 Model Evaluation and Analysis')
+
 CURRENT_DIR = pathlib.Path(__file__).parent.resolve()
 
 # Load data

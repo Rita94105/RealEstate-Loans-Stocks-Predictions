@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import pathlib
 
+st.title('📚 Data Splitting and Normalization')
+
 CURRENT_DIR = pathlib.Path(__file__).parent.resolve()
 
 # Load data

@@ -13,6 +13,8 @@ from sklearn.metrics import log_loss
 from sklearn.neural_network import MLPClassifier
 import matplotlib.pyplot as plt
 
+st.title('✈️ Model Training')
+
 CURRENT_DIR = pathlib.Path(__file__).parent.resolve()
 
 # Load data

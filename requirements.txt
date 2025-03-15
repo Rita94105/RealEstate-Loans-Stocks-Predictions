@@ -2,3 +2,6 @@ st-pages
 matplotlib
 seaborn
 scikit-learn
+statsmodels
+tensorflow
+scikeras

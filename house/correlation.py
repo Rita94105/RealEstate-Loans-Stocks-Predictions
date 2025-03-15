@@ -5,6 +5,8 @@ import pathlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.title('✅ Correlation and Feature Selection')
+
 CURRENT_DIR = pathlib.Path(__file__).parent.resolve()
 # Load cleaned data
 df_cleaned = pd.read_csv(CURRENT_DIR / 'Dataset1_Cleaned.csv')
